@@ -1,0 +1,15 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "test for week 1",
+  "main": "testNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-static": "^0.7.11"
+  }
+}
