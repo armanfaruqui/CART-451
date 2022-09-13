@@ -1,0 +1,56 @@
+@font-face {
+  font-family: SF_Light;
+  src: url("SF-Pro-Text-Light.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.text {
+  text-align: left;
+  font-family: SF_Light;
+  font-size: 1.5rem;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+span.stretch {
+  display: inline-block;
+  -webkit-transform: scale(2, 1); /* Safari and Chrome */
+  -moz-transform: scale(2, 1); /* Firefox */
+  -ms-transform: scale(2, 1); /* IE 9 */
+  -o-transform: scale(2, 1); /* Opera */
+  transform: scale(2, 1); /* W3C */
+}
+
+.content {
+  display: flex;
+  background-color: lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morph {
+  max-width: 28rem;
+  max-height: 28rem;
+}
